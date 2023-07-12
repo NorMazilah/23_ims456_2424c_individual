@@ -1,0 +1,153 @@
+h1
+    {
+        color:pink;
+        font-size: 20pt;
+        font-family: Dishonorable Mention (Comic Sans);
+    }
+
+a
+    {
+        font-size: 18pt;
+        padding-right: 30px;
+        font-family: Dishonorable Mention (Comic Sans);
+        text-decoration: none;
+        color:white;
+    }
+
+a:hover
+    {
+        font-size: 22pt;
+        font-family: Impact;
+        color: white;
+        background-color: maroon;
+    }
+
+.logo
+    {
+        width: 30%;
+        height: 100px;
+        background-color: pink;
+        float: left;
+    }  
+
+ .menu
+     {
+        width: 70%;
+        height: 100px;
+        background-color: pink;
+        float: left;
+     }   
+
+table, tr, td,th
+     {
+        border: 1px solid black;
+        border-collapse: collapse;
+        font-size: 19px;
+     }
+
+table
+     {
+        width: 600px;
+     }
+
+td
+     {
+        padding: 5px;
+     }
+
+tr
+     {
+        background-color: papayawhip;
+     }
+    
+th
+     {
+        background-color: palevioletred;
+        color: whitesmoke;
+     }
+
+tr:nth-child(odd)
+     {
+        background-color: peachpuff;
+     }
+
+tr:hover
+     {
+        background-color: palevioletred;
+     }
+
+.achievements-container 
+    {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 50px;
+    }
+
+.achievement
+    {
+      width: 300px;
+      margin: 20px;
+      text-align: center;
+    }
+
+.achievement-image
+    {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin: 0 auto;
+    }
+
+.achievement-title
+    {
+      font-size: 20px;
+      margin-top: 10px;
+      margin-bottom: 5px;
+    }
+
+.achievement-description
+    {
+      font-size: 16px;
+    }
+
+
+.skills-container 
+    {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 50px;
+    }
+
+.skill
+    {
+      width: 250px;
+      margin: 20px;
+      text-align: center;
+    }
+
+.skill-image
+   {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin: 5px;
+    }
+
+.skill-name
+    {
+      margin-top: 10px;
+      font-size: 20px;
+      color: black;
+    }
+
+.additional-word
+    {
+      font-size: 16px;
+      color: #888888;
+    } 
+
+
